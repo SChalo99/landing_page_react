@@ -1,0 +1,31 @@
+.form__input:focus {
+    border: 2px solid white;
+}
+
+.form__div {
+    position: relative;
+    height: 52px;
+    width: 300px;
+}
+
+.form__input {
+    position: relative;
+    width: 100%;
+    border: 2px solid var(--font-color);
+    border-radius: 0.5rem;
+    color: var(--font-color);
+    outline: none;
+    height: 42px;
+    background: none;
+    z-index: 10;
+}
+
+.form__label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    padding: 0 0.25rem;
+    background: var(--background);
+    color: var(--font-color);
+    transition: 0.3s;
+}

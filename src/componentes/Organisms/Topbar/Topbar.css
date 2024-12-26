@@ -1,0 +1,8 @@
+.nav-bar,
+.nav-elements {
+    background-color: rgb(2 9 40);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
