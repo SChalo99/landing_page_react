@@ -6,3 +6,62 @@
     --opacity: 0.7;
     --font-color: #c1bfbe;
 }
+
+.container-image {
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px 40px 0 0;
+}
+
+.image {
+    height: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../src/assets/primary-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.text-title {
+    width: 390px;
+    text-align: center;
+    align-content: center;
+}
+
+.col-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.right,
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+    gap: 10px;
+    border-radius: 0 0 40px 40px;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.subtitle {
+    color: white;
+    background: none;
+
+}

@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 const LogoNav = (props) => {
     const { src } = props;
     return (
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#">
             <img
                 src={src}
                 width="200px"

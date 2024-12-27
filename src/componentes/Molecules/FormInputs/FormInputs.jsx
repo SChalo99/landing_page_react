@@ -7,8 +7,8 @@ const FormInputs = (props) => {
     return (
         inputs.map((input) => {
             return (
-                <Row>
-                    <Inputs label={input.label} type={input.type} onTextChange={input.onTextChange}></Inputs>
+                <Row key={input.label}>
+                    <Inputs formLabel={input.label} type={input.type} onTextChange={input.onTextChange}></Inputs>
                 </Row>
             )
         })

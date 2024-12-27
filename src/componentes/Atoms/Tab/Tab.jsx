@@ -8,10 +8,15 @@ const MyTab = (props) => {
         color: "white",
         width: "100%",
         height: "80px",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        whiteSpace: "nowrap",
     };
 
     return (
-        <Nav.Link onClick={() => { navigate(url) }} style={tabStyle}>{label}</Nav.Link>
+        <Nav.Link className="tab" onClick={() => { navigate(url) }} style={tabStyle}>{label}</Nav.Link>
     )
 }
 

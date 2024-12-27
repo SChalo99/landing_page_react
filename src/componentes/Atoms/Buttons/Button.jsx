@@ -1,9 +1,9 @@
 import { Button } from "react-bootstrap"
 const MyButton = (props) => {
-    const { label, action } = props
+    const { label, action, className } = props
 
     return (
-        <Button onClick={() => { action() }}>{label}</Button>
+        <Button className={className} onClick={() => { action() }}>{label}</Button>
     )
 }
 

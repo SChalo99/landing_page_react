@@ -1,8 +1,40 @@
 .nav-bar,
 .nav-elements {
-    background-color: rgb(2 9 40);
+    background-color: rgb(2 9 40) !important;
     width: 100%;
     height: 80px;
     display: flex;
     flex-direction: row;
+}
+
+.me-auto {
+    margin-left: auto;
+    margin-right: 0 !important;
+    gap: 20px;
+}
+
+.navbar-toggler {
+    background-color: var(--cta);
+    color: white;
+}
+
+.nav-link {
+    align-content: center;
+}
+
+.tab {
+    font-size: large;
+}
+
+.tab:hover {
+    background: var(--cta);
+}
+
+a:hover {
+    color: rgb(2 9 40) !important;
+}
+
+#basic-navbar-nav {
+    background-color: rgb(2 9 40) !important;
+    z-index: 1;
 }

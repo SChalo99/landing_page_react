@@ -1,8 +1,8 @@
 const CarouselTag = (props) => {
-    const { label } = props;
+    const { tag } = props;
 
     return (
-        <div className="image-tag"><h3>{label}</h3></div>
+        <div className="image-tag"><h3>{tag}</h3></div>
     )
 }
 

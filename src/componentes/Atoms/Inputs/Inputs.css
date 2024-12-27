@@ -6,6 +6,7 @@
     position: relative;
     height: 52px;
     width: 300px;
+    margin-bottom: 10px;
 }
 
 .form__input {
@@ -22,6 +23,7 @@
 
 .form__label {
     position: absolute;
+    font-size: small;
     left: 1rem;
     top: 1rem;
     padding: 0 0.25rem;

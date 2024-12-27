@@ -6,11 +6,11 @@ const CarouselContent = (props) => {
     const { data } = props;
     const navigate = useNavigate();
     return (
-        <a onClick={() => { navigate(data.url) }}>
+        <div className='img-carousel-slide' >
             <CarouselImage src={data.src} alt={data.alt}></CarouselImage>
-            <div className='hover'></div>
+            <div className='hover' onClick={() => { navigate(data.url) }}></div>
             <CarouselTag tag={data.tag}></CarouselTag>
-        </a>
+        </div >
     );
 }
 

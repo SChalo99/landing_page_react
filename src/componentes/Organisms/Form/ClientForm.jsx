@@ -25,17 +25,18 @@ const ClientForm = (props) => {
 
     const button = {
         label: "Contact us",
-        action: () => { alert("Form Submitted") }
+        action: () => { alert("Form Submitted") },
+        className: "cta"
     };
     return (
-        <Container>
-            <Col className="form-title">
-                <Row>
+        <Container className="form-container">
+            <Col className='form'>
+                <Row className="form-title">
                     <h2>Get a Quote for Your New Apartment</h2>
                 </Row>
                 <FormInputs inputs={inputs}></FormInputs>
                 <Row>
-                    <MyButton label={button.label} action={button.action}></MyButton>
+                    <MyButton label={button.label} action={button.action} className={button.className}></MyButton>
                 </Row>
             </Col>
         </Container >

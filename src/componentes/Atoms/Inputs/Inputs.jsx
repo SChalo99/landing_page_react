@@ -1,11 +1,11 @@
 import "./Inputs.css";
 
 const Inputs = (props) => {
-    const { label, type, onTextChange } = props;
+    const { formLabel, type, onTextChange } = props;
     return (
         <div className="form__div">
-            <input type={type} className="form__input" placeholder="" onChange={() => { onTextChange() }} />
-            <label for="" className="form__label">{label}</label>
+            <input type={type} className="form__input" placeholder="" onChange={(e) => { onTextChange(e) }} />
+            <label htmlFor="" className="form__label">{formLabel}</label>
         </div>
     )
 }
