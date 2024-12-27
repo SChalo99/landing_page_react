@@ -20,15 +20,18 @@ const LandingPage = () => {
     return (
         <Col>
             <Topbar />
-            <Row className="container-image">
-                <Row className='image'>
-                    <Col className='text-title' xs={8} sm={8}>
-                        <TitleContainer title={title} />
-                    </Col>
-                    <Col className='col-form' xs={4} sm={4}>
-                        <Form />
-                    </Col>
-                </Row>
+            <Row>
+                <Container className="container-image">
+                    <Row className='image'>
+                        <Col className='text-title' xs={8} sm={8}>
+                            <TitleContainer title={title} />
+                        </Col>
+                        <Col className='col-form' xs={4} sm={4}>
+                            <Form />
+                        </Col>
+                    </Row>
+                </Container>
+
             </Row>
             <Row>
                 <Container className="container-image left">
