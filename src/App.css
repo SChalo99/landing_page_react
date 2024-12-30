@@ -72,6 +72,10 @@
     color: white;
 }
 
+.copyright>p {
+    width: auto;
+}
+
 @media only screen and (max-width: 970px) {
     .image {
         height: 100%;

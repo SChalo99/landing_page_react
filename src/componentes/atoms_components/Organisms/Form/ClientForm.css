@@ -64,11 +64,12 @@
     width: 100%;
     border: 2px solid var(--font-color);
     border-radius: 0.5rem;
-    color: var(--font-color);
+
     outline: none;
     height: 42px;
     background: none;
     z-index: 10;
+    color: white;
 }
 
 .form__label {

@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer>
             <Container>
-                <Row class="copyright">
+                <Row className="copyright">
                     <p>Copyright @YourCompany</p>
                 </Row>
             </Container>
