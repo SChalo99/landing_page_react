@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import LogoFooter from "../../Atoms/LogoFooter";
 
 const Footer = () => {
     const footerContent = {
