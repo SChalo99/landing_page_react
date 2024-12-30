@@ -1,7 +1,7 @@
 import LogoNav from "../../Atoms/LogoNav";
 import TabsGroup from "../../Molecules/Tabs";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../../../assets/logo_rectangle.png";
+import { Navbar } from "react-bootstrap";
+import logo from "../../../../assets/logo_rectangle.png";
 import "./Topbar.css";
 
 const Topbar = () => {

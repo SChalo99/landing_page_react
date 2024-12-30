@@ -1,12 +1,12 @@
 import { Carousel } from "react-bootstrap";
 import CarouselContent from "../../Molecules/CarouselContent";
 import "./MyCarousel.css";
-import img1 from "../../../assets/house_1.jpg";
-import img2 from "../../../assets/house_2.jpg";
-import img3 from "../../../assets/house_3.jpg";
-import img4 from "../../../assets/house_4.jpg";
-import img5 from "../../../assets/house_5.jpg";
-import img6 from "../../../assets/house_6.jpg";
+import img1 from "../../../../assets/house_1.jpg";
+import img2 from "../../../../assets/house_2.jpg";
+import img3 from "../../../../assets/house_3.jpg";
+import img4 from "../../../../assets/house_4.jpg";
+import img5 from "../../../../assets/house_5.jpg";
+import img6 from "../../../../assets/house_6.jpg";
 
 const MyCarousel = (props) => {
     const { custId } = props;
